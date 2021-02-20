@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Oz Games: Trang tin tức dành cho game thủ</title>   
+<link rel="stylesheet" type="text/css" href="ozgamesstyle.css">  
+<script src="ozgamesscript.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div id="head-container">
+	<div id="cover-head-container">
+        <div id ="logo-part">	
+            <div id ="head-logo"><a href="index.html"><img id="head-logo" src="images/small-logo.png"></a></div> <!--notice the path, remove "../" if needed-->
+        </div> 
+        <div id="cover-head-bar-top">
+            <div id ="head-bar-top">		
+                <a class="top-task" href="#tintuc">TIN TỨC</a>
+                <a class="top-task" href="#danhgia">ĐÁNH GIÁ</a>
+                <a class="top-task" href="#banluan">BÀN LUẬN</a>
+                <a class="top-task" href="#sanpham">SẢN PHẨM</a>
+            </div>
+            <div id="search-box">
+                <img id="search-icon" src="images/searchicon.png" alt="Tìm kiếm"> <!--notice the path, remove "../" if needed-->
+                <input id="s-box" type="text" placeholder="Tìm kiếm..."> 
+            </div>
+        </div>
+	    <div id="cover-head-bar-bottom">
+            <div id= "more-button" onclick="clickevent()">
+                <div id="line-1"></div>
+                <div id="line-2"></div>
+                <div id="line-3"></div>
+                <div id="drop-down-task-bar">
+                    <a class="more-butt-task">Tin tuc</a>
+
+                </div>
+            </div>
+            <div id ="head-bar-bottom">
+                <a class="under-task" href="#onlineGames">ONLINE GAMES</a>
+                <a class="under-task" href="#videoGame">VIDEO GAMES</a>
+                <a class="under-task" href="#mobileGame">MOBILE GAMES</a>
+                <a class="under-task" href="#esports">ESPORTS</a>
+            </div>
+            <div id="quick-access-but">
+                <div id="ytbut"><img src="images/youtubebut.png" alt="youtube"> <!--notice the path, remove "../" if needed-->
+                </div>
+                <div id="fbbut"><img src="images/facebookbut.png" alt="facebook"> <!--notice the path, remove "../" if needed-->
+                </div>
+            </div>
+        </div>
+	</div>
+</div>
+<div id="body-container">
+	<div id="spotlight">
+        <div id="side-spotlight-left-cover">
+            <div id="side-top">
+                <div id="spotlight-img"><a href="esports/chi-tiet-bo-ky-nang-cua-tuong-moi-yone.html"><img class="spotlight-image" src="mainpages/images/2.jpg"></a></div>    
+                <div id="side-text-spotlight"><a href="esports/chi-tiet-bo-ky-nang-cua-tuong-moi-yone.html"><p class="side-spotlight-text">Chi tiết bộ kỹ năng của tướng mới Yone</p></a></div>
+            </div>
+            <div id="side-bot">
+                <div id="spotlight-img"><a href="esports/riot-se-to-chuc-cktg-2020-tai-thuong-hai.html"><img class="spotlight-image" src="https://cdn1.dotesports.com/wp-content/uploads/2020/07/09174442/49045312101_1d28c36ae7_k-768x512.jpg"></a></div> 
+                <div id="side-text-spotlight"><a href="esports/riot-se-to-chuc-cktg-2020-tai-thuong-hai.html"><p class="side-spotlight-text">Riot sẽ tổ chức chung kết thế giới 2020 tại Thượng Hải</p></a></div>
+            </div>       
+        </div>
+		<div id="main-spotlight-cover">  
+            <div id="spotlight-img"><a href="esports/top-10-pha-xu-ly-di-vao-huyen-thoai-cua-faker.html"><img class="spotlight-image" src="mainpages/images/2.jpg"></a></div> 
+            <div id="main-spotlight-text"><a href="top-10-pha-xu-ly-di-vao-huyen-thoai-cua-faker.html"><p class="spotlight-text">Top 10 pha xử lý đi vào huyền thoại của Faker</p></a></div>       
+        </div>
+		<div id="side-spotlight-right-cover">           
+            <div id="side-top">
+                <div id="spotlight-img"><a href="chi-tiet-bo-ky-nang-cua-tuong-moi-yone.html"><img class="spotlight-image" src="mainpages/images/2.jpg"></a></div>             
+                <div id="side-text-spotlight"><a href="top-10-pha-xu-ly-di-vao-huyen-thoai-cua-faker.html"><p class="side-spotlight-text">Top 10 pha xử lý đi vào huyền thoại của Faker</p></a></div>
+            </div>
+            <div id="side-bot">
+                <div id="spotlight-img"><a href="chi-tiet-bo-ky-nang-cua-tuong-moi-yone.html"><img class="spotlight-image" src="mainpages/images/2.jpg"></a></div>
+                <div id="side-text-spotlight"><a href="top-10-pha-xu-ly-di-vao-huyen-thoai-cua-faker.html"><p class="side-spotlight-text">Top 10 pha xử lý đi vào huyền thoại của Faker</p></a></div>
+            </div>
+        </div>
+    </div>    
+    <div id="news-feed">
+        <div id="seperator-s">
+            <h2 id="ttcn">News</h2>
+            <div id="separator"></div>
+        </div>
+        <div id="cover-news-feed-zone">
+            <iframe onload="set_height()" name="if-1" id="mps-iframe" src="mainpages/2.html" title="Iframe Example"></iframe>
+            <div id="cover-page-button">
+                <a onclick="scroll_view()" id="decor-lm-area" href="mainpages/1.html" target="if-1"></a>
+                <a onclick="scroll_view()" id="pages-button" href="mainpages/1.html" target="if-1" >
+                    <div id="load-more">
+                            <div id="decor-lm-2"></div>
+                            <div id="decor-lm-3"></div>
+                            <div id="decor-lm-4"></div>
+                            <div id="decor-lm-5"></div>         
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="side-news-feed-zone">
+            <h2>Videos</h2>
+            <iframe id="side-vids" width="560" height="315" src="https://www.youtube.com/embed/GEz7hXYFzNE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="side-vids" width="560" height="315" src="https://www.youtube.com/embed/vTJdVE_gjI0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+<footer>
+    <div id="separator-to-footer"></div>
+    <div id="top-part-footer">
+        <div id="cover-top-part-footer">
+            <div id="footer-logo"><a href="../index.html"><img id="foot-logo" src="images/logo.png"></a></div>
+            <div id="footer-task">
+                <div id="topline-of-this">
+                    <a class="sub-tasks" href="ONLINE-GAMES">ONLINE GAMES</a>
+                    <a class="sub-tasks" href="ONLINE-GAMES">VIDEO GAMES</a>
+                    <a class="sub-tasks" href="ONLINE-GAMES">MOBILE GAMES</a>
+                    <a class="sub-tasks" href="ONLINE-GAMES">ESPORTS</a>
+                </div>
+                <div id="bottomline-of-this">
+                    <a class="sub-tasks-2" href="ONLINE-GAMES">Giới thiệu</a>
+                    <a class="sub-tasks-2" href="ONLINE-GAMES">Chính sách bảo mật</a>
+                    <a class="sub-tasks-2" href="ONLINE-GAMES">Điều khoản dịch vụ</a>
+                    <a class="sub-tasks-2" href="ONLINE-GAMES">Liên hệ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="separator"></div>
+    <div id="bottom-part-footer">
+        <div id="footer-text">
+            <div id="copyright-statement">© Copyright 2019 Ozgames, All rights reserved.</div>
+            <div id="license-status">© Trang web đang đợi giấy phép của Bộ Thông tin và Truyền thông.</div>
+            <div id= "sub-text">© Toàn bộ bản quyền nội dung thuộc về Oz LLC. Mọi hình thức sao chép sẽ bị xem xét xử lý theo pháp luật.</div>
+        </div>
+        <div id="sub-button-footer">
+            
+        </div>
+    </div>
+</footer>
+</body>
+</html>

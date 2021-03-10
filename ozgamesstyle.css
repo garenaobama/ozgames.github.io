@@ -402,6 +402,7 @@ a:active {
 }
 #mps-iframe{
 	border: none;
+	height: 720px;
 }
 /*pagebutton*/
 #cover-page-button:hover > #decor-lm-area{
